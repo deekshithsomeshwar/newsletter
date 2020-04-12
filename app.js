@@ -33,7 +33,7 @@ app.post("/", function(req,res){
   const url = "https://us19.api.mailchimp.com/3.0/lists/10eb5d2863";
   const options = {
     method: "POST",
-    auth: "deeks:bef63996e1ff6a7d720769701633f9f1-us19"
+    auth: "xx"
     //check the auth method in both mail chimp and https to understand how the auth was added
 
   }
@@ -62,8 +62,4 @@ app.listen(process.env.PORT || 3000, function(){
 });
 // process.env.PORT is for heroku to assign a port when launched and 3000 is for local.
 
-//API KEY
-//bef63996e1ff6a7d720769701633f9f1-us19
-// List ID
-// 10eb5d2863
-//"start": "node app.js"
+
