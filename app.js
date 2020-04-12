@@ -33,7 +33,8 @@ app.post("/", function(req,res){
   const url = "https://us19.api.mailchimp.com/3.0/lists/10eb5d2863";
   const options = {
     method: "POST",
-    auth: "XXX"
+    auth: "xx"
+
     //check the auth method in both mail chimp and https to understand how the auth was added
 
   }
